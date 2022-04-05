@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Link1 from './link1';
+import ButtonComponent from './button';
+import Checkboxes from './checkbox';
+import SliderSizes from './slider';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +15,9 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/link1'element={<Link1/>}/>
+        <Route path='/button'element={<ButtonComponent/>}/>
+        <Route path='/checkbox'element={<Checkboxes/>}/>
+        <Route path='/sliders'element={<SliderSizes/>}/>
       </Routes>
     </BrowserRouter>
     

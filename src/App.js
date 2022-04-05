@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <Link to="/link1"><a>link 1</a></Link>
-      <a>link 2</a>
-      <a>link 3</a>
-      <a>link 4</a>
-      <a>link 5</a>
+      <br/>
+      <Link to="/button"><a>Component A</a></Link>
+      <br/>
+      <Link to="/checkbox"><a>Component B</a></Link>
+      <br/>
+      <Link to="/sliders"><a>Component C</a></Link>
     </div>
   );
 }
